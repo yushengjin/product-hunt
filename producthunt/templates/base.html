@@ -18,7 +18,7 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
       <a class="navbar-brand" href="{% url 'home' %}">
       <img src="{% static 'logop.png' %}" height=30 width=30 class="d-inline-block alighn-top" />
@@ -30,6 +30,7 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
           {% if user.is_authenticated %}
+          <a class="nav-item nav-link" href="{% url 'create' %}"><span class="oi oi-plus"></span></a>
           <a class="nav-item nav-link" href="javascript:{document.getElementById('logout').submit()}" onclick="">Logout</a>
           <form id="logout" method="POST" action="{% url 'logout' %}">
             {% csrf_token %}
