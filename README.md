@@ -1,4 +1,17 @@
 # product-hunt
+
+Product Hunt Clone: Make a simplified version of the awesome website to share new tech products. 
+
+Work with the authentication system (sign up, login, logout) 
+
+Reuse templates
+
+Create model relationships
+
+Add icons via Iconic
+
+
+
 ![](https://i.imgur.com/fy4TBCc.gif)
 ![](https://i.imgur.com/hgHdgxE.gif)
 ![](https://i.imgur.com/4XW5jXG.gif)
